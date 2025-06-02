@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    background-color:#10101024;
+}
+    .navbar-box{
+        height:50px;
+        width: 100%;
+        background-color: #f5f5f5;
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        gap:70px;
+        padding-left: 20px;
+    }
+    .navbar .home{
+        color: red;
+        border-bottom: 2px solid black;
+    } 
+    .navbar-box a{
+        text-decoration: none;
+        font-weight: bolder;
+        color: black;
+        font-size: 13px;
+    }
+    .navbar a:hover{
+        color: rgb(185, 14, 168);
+        border-bottom: 2px solid rgb(155, 71, 71);
+    }
+    .navbar img{
+        height: 50px;
+        width: 100px;
+    }
+    .login{
+        font-weight: bolder;
+        display: flex;
+        align-items: center;
+        padding-right: 20px;
+        gap: 5px;
+    }
+.middel-image img{
+    height: 470px;
+    width: 100%;
+}
+.discription{
+    position: absolute;
+    left: 35%;
+    top :270px;
+}
+.discription h3{
+ font-size: 35px;
+ font-weight: 400;
+ color: white;
+}
+.discription h1{
+    font-size: 54px;
+    font-weight: 900;
+    color: white;
+}
+.middle-section{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+.middle-section .agency{
+    height: 515px;
+    width: 385px;
+    border-radius: 10px;
+}
+.middle-section .agency h1{
+ font-size: 18px;
+ font-weight: 900;
+ padding-bottom: 20px;
+}
+.middle-section .agency h3{
+    font-size: 13px;
+    font-weight: 400;
+    opacity: 0.8;
+}
+.middle-section .agency h2{
+    font-size: 13px;
+    font-weight: 600;
+    opacity: 0.8;
+    padding-bottom: 10px;
+}
+.report{
+    background-color: rgba(146, 146, 157, 0.342);
+    padding: 20px;
+}
+.h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    display: flex;
+    gap: 48px;
+    padding-bottom: 40px;
+    align-items: center;
+}
+.name input{
+    height: 30px;
+    width: 230px;
+    padding: 10px;
+}
+.remarks{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 40px;
+}
+.remarks textarea{
+    width: 230px;
+    padding: 10px;
+}
+.click{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.click button{
+    width: 105px;
+    height: 40px;
+    background-color: rgb(17, 17, 180);
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 800;
+    border: none;
+}
+.click button:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+.footer{
+    height: 350px;
+    background-color:#395065;
+    margin-top: 80px;
+    padding: 20px;
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.refrence{
+    height: 410px;
+    display: flex;
+    justify-content: space-around;
+}
+.setting .name{
+    font-size: 25px;
+    font-weight: 800;
+    padding-bottom: 16px;    
+}
+.setting h3{
+    font-size: 22px;
+    font-weight: 400;
+    padding-bottom: 15px;  
+    opacity: 0.8;
+}
+.copywrite{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.copywrite h4{
+    font-size: 16px;
+    opacity: 0.5;
+    font-weight: 400;
+}
